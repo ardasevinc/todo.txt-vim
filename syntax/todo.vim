@@ -47,8 +47,8 @@ highlight  default  link  TodoPriorityA  Constant
 highlight  default  link  TodoPriorityB  Statement
 highlight  default  link  TodoPriorityC  Identifier
 highlight  default  link  TodoDate       PreProc
-highlight  default  link  TodoProject    Special
-highlight  default  link  TodoContext    Special
+highlight  default  link  TodoProject    ModeMsg
+highlight  default  link  TodoContext    MoreMsg
 
 if exists('g:todo_load_python') && g:todo_load_python
     if has('python')
